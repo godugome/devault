@@ -64,7 +64,7 @@ static const Amount DEFAULT_MIN_RELAY_TX_FEE_PER_KB(Amount::min_amount());
 /** Default for -excessutxocharge for transactions transactions */
 static const Amount DEFAULT_UTXO_FEE = Amount::zero();
 //! -maxtxfee default
-static const Amount DEFAULT_TRANSACTION_MAXFEE(COIN * 10);
+static const Amount DEFAULT_TRANSACTION_MAXFEE(10 * COIN);
 //! Discourage users to set fees higher than this amount (in satoshis) per kB
 static const Amount HIGH_TX_FEE_PER_KB(COIN / 100);
 /**
