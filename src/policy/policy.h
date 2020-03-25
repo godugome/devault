@@ -35,7 +35,7 @@ static const Amount DEFAULT_BLOCK_MIN_TX_FEE_PER_KB(Amount::min_amount());
 /**
  * The maximum size for transactions we're willing to relay/mine.
  */
-static const unsigned int MAX_STANDARD_TX_SIZE = 100000;
+static const unsigned int MAX_STANDARD_TX_SIZE = 1000000;
 
 /**
  * Biggest 'standard' txin is a 15-of-15 P2SH multisig with compressed
